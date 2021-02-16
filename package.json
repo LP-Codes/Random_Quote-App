@@ -26,5 +26,8 @@
   "homepage": "https://github.com/LP-Codes/Todo-List-App#readme",
   "engines": {
     "node": "14.x"
+  },
+  "dependencies": {
+    "now": "^21.0.1"
   }
 }
