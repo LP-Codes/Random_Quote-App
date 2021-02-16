@@ -4,6 +4,7 @@
   "description": "Randomly Displays Famous Quotes Built using vanilla JS",
   "main": "index.html",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
