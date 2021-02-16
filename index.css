@@ -1,0 +1,19 @@
+body {
+  background-image: url("https://source.unsplash.com/weekly?water");
+ 
+
+  
+}
+
+div {
+  align-content: center;
+  text-align: center;
+  color: red;
+  font-weight: bold;
+  font-size: 35px;
+}
+button {
+  align-self: center;
+  align-content: center;
+  position: center;
+}
