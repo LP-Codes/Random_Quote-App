@@ -15,7 +15,7 @@ function displayquote() {
   document.getElementById("quotedisplay").innerHTML = quotes[randomnumber];
 }
 
-// using api to fetch quote
+// using  trump api to fetch quote
 
 function displayquote2() {
   const quotesapi = "https://api.whatdoestrumpthink.com/api/v1/quotes/random";
@@ -37,11 +37,23 @@ fetch(url1)
     document.getElementById("ip").innerHTML =
       "Ur Location is :\n" +
       "Country - " +
-      b.country_name + " City - "+b.city+
+      b.country_name +
+      " City - " +
+      b.city +
       " State - " +
-      b.region_name 
-      ;
+      b.region_name;
+    const apiKey = "0926e3715bd414c4bdd946435fb4553d";
+    const inputVal = b.city;
+    // added weather data api
+    const url4 = `https://api.openweathermap.org/data/2.5/weather?q=${inputVal}&appid=${apiKey}&units=metric`;
+    fetch(url4)
+      .then((res) => res.json())
+      .then((data) => {
+        console.warn(data);
+        let city1 = data;
+        document.getElementById("weather").innerHTML= "Your City's Current temperature is : "+city1.main.temp + " Degree Celcius";
+      });
     // console.log(b.ip);
   });
 // get public ip
-document.getElementById("ip1").innerHTML =Date()
+document.getElementById("ip1").innerHTML = Date();
