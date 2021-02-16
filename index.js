@@ -13,5 +13,17 @@ function displayquote() {
   var randomnumber = Math.floor(Math.random() * quotes.length);
 
   document.getElementById("quotedisplay").innerHTML = quotes[randomnumber];
+}
 
+// using api to fetch quote
+
+function displayquote2() {
+  const quotesapi = "https://api.whatdoestrumpthink.com/api/v1/quotes/random";
+  fetch(quotesapi)
+    .then((res) => res.json())
+    .then((data) => {
+      let l = data.message;
+      console.log(l);
+      document.getElementById("quotedisplay").innerHTML = l;
+    });
 }
