@@ -1,32 +1,22 @@
 {
-  "name": "random-quote-generator",
+  "name": "random-quote-app",
   "version": "1.0.0",
-  "description": "Randomly Displays Famous Quotes Built using vanilla JS",
+  "description": "Generates random Donald Trump quotes",
+  
   "main": "index.html",
+  
+  "devDependencies": {},
   "scripts": {
-    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/LP-Codes/Random_Quote-App.git"
   },
-  "keywords": [
-    "javascript",
-    "random",
-    "quotes",
-    "js",
-    "html",
-    "css"
-  ],
-  "author": "LP-Codes",
+  "author": "lp",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/LP-Codes/Todo-List-App/issues"
+    "url": "https://github.com/LP-Codes/Random_Quote-App/issues"
   },
-  "homepage": "https://github.com/LP-Codes/Todo-List-App#readme",
-  "engines": {
-    "node": "14.x"
-  }
- 
+  "homepage": "https://github.com/LP-Codes/Random_Quote-App#readme"
 }
