@@ -28,7 +28,5 @@
   "engines": {
     "node": "14.x"
   },
-  "dependencies": {
-    "now": "^21.0.1"
-  }
+ 
 }
