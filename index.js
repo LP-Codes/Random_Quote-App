@@ -27,3 +27,20 @@ function displayquote2() {
       document.getElementById("quotedisplay").innerHTML = l;
     });
 }
+// geolocation api
+url1 = "https://freegeoip.app/json/";
+fetch(url1)
+  .then((res) => res.json())
+  .then((data) => {
+    // console.log(data);
+    let b = data;
+    document.getElementById("ip").innerHTML =
+      "Ur Location is :\n" +
+      "Country - " +
+      b.country_name + " City - "+b.city+
+      " State - " +
+      b.region_name 
+      ;
+    // console.log(b.ip);
+  });
+// get public ip
