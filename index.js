@@ -44,3 +44,4 @@ fetch(url1)
     // console.log(b.ip);
   });
 // get public ip
+document.getElementById("ip1").innerHTML =Date()
