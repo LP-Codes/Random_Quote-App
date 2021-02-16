@@ -1,0 +1,27 @@
+{
+  "name": "random-quote-generatot",
+  "version": "1.0.0",
+  "description": "Randomly Displays Famous Quotes Built using vanilla JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LP-Codes/Todo-List-App.git"
+  },
+  "keywords": [
+    "javascript",
+    "random",
+    "quotes",
+    "js",
+    "html",
+    "css"
+  ],
+  "author": "LP-Codes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LP-Codes/Todo-List-App/issues"
+  },
+  "homepage": "https://github.com/LP-Codes/Todo-List-App#readme"
+}
