@@ -2,7 +2,7 @@
   "name": "random-quote-generator",
   "version": "1.0.0",
   "description": "Randomly Displays Famous Quotes Built using vanilla JS",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
