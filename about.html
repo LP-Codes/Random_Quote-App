@@ -16,15 +16,14 @@
       h2 {
         color: rgb(123, 253, 90);
         font-size: 70px;
-        
+
         text-align: center;
       }
 
       body {
         background-image: url("./giphy2.gif");
-        background-size: 100%;
+        background-size:cover;
         background-repeat: no-repeat;
-        
       }
 
       /* Add a black background color to the top navigation */
@@ -55,8 +54,9 @@
         color: white;
       }
       div {
-  align-content: center;
-  text-align: center;}
+        align-content: center;
+        text-align: center;
+      }
     </style>
   </head>
 
@@ -64,13 +64,17 @@
     <!-- creating nav bar -->
     <div class="topnav">
       <a href="#home" id="home" onclick="home()">Home</a>
-      <a class="active"  href="#about" id="about" onclick="about()">About</a>
-      <h1 style="color: rgb(123, 255, 0);font-weight: bolder ;">
-        Random Donald Trump Quote Generator
-      </h1>
+      <a class="active" href="#about" id="about" onclick="about()">About</a>
     </div>
+    <hr />
    
-    <h2><marquee scrollamount="20">Just a Small App For Viewing Random Trump Quotes ...</marquee></h2>
+    
+
+    <h2>
+      <marquee scrollamount="20"
+        >Just a Small App For Viewing Random Trump Quotes ...</marquee
+      >
+    </h2>
   </body>
   <script src="index.js"></script>
 </html>
