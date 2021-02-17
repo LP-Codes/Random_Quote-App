@@ -49,7 +49,7 @@ fetch(url1)
     fetch(url4)
       .then((res) => res.json())
       .then((data) => {
-        console.warn(data);
+        // console.warn(data);
         let city1 = data;
         document.getElementById("weather").innerHTML= "Your City's Current temperature is : "+city1.main.temp + " Degree Celcius";
       });
@@ -57,3 +57,4 @@ fetch(url1)
   });
 // get public ip
 document.getElementById("ip1").innerHTML = Date();
+
