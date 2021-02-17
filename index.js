@@ -18,12 +18,14 @@ function displayquote() {
 // using  trump api to fetch quote
 
 function displayquote2() {
+  document.getElementById("btn1").innerHTML = "Next";
+
   const quotesapi = "https://api.whatdoestrumpthink.com/api/v1/quotes/random";
   fetch(quotesapi)
     .then((res) => res.json())
     .then((data) => {
       let l = data.message;
-      console.log(l);
+      // console.log(l);
       document.getElementById("quotedisplay").innerHTML = l;
     });
 }
