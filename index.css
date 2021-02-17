@@ -1,5 +1,10 @@
 body {
-  background-image: url("https://source.unsplash.com/weekly?water");
+  background-image: url("./images/Cubes-Flight-Movement-Wallpaper.jpg");
+  height:max-content
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  
 }
 
 div {
@@ -15,5 +20,5 @@ button {
   position: center;
 }
 h1{
-  color:rgb(8, 34, 88)
+  color:rgb(122, 169, 240)
 }
