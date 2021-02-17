@@ -1,8 +1,8 @@
 body {
   background-image: url("./images/Cubes-Flight-Movement-Wallpaper.jpg");
-  height:max-content
+  height:max-content;
   /* Center and scale the image nicely */
-  background-position: center;
+ 
   background-repeat: no-repeat;
   
 }
