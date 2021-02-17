@@ -60,4 +60,3 @@ fetch(url1)
   });
 // get public ip
 document.getElementById("ip1").innerHTML = Date();
-
