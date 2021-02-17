@@ -21,7 +21,7 @@
       }
 
       body {
-        background-image: url("./giphy2.gif");
+        background-image: url("./images/HD-Backgrounds-Black-1920x1080.jpg");
         width: auto;
         max-width: 100%;
         height: auto;
@@ -61,6 +61,13 @@
         align-content: center;
         text-align: center;
       }
+
+      .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height:50%
+}
     </style>
   </head>
 
@@ -71,12 +78,22 @@
       <a class="active" href="#about" id="about" onclick="about()">About</a>
     </div>
     <hr />
-
     <h2>
       <marquee scrollamount="20"
         >Just a Small App For Viewing Random Trump Quotes ...</marquee
       >
     </h2>
+    <img class="center"
+      src="giphy2.gif"
+      alt="trump nigga"
+      srcset="giphy2.gif"
+      margin-left: auto;
+      
+      height="150px"
+    />
+
+
+
   </body>
   <script src="index.js"></script>
 </html>
