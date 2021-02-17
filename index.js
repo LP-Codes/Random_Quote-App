@@ -58,3 +58,5 @@ fetch(url1)
 // get public ip
 document.getElementById("ip1").innerHTML = Date();
 
+var dm=navigator.userAgentData
+console.log(dm)
