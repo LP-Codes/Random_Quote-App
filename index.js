@@ -51,12 +51,21 @@ fetch(url1)
       .then((data) => {
         // console.warn(data);
         let city1 = data;
-        document.getElementById("weather").innerHTML= "Your City's Current temperature is : "+city1.main.temp + " Degree Celcius";
+        document.getElementById("weather").innerHTML =
+          "Your City's Current temperature is : " +
+          city1.main.temp +
+          " Degree Celcius";
       });
     // console.log(b.ip);
   });
 // get public ip
 document.getElementById("ip1").innerHTML = Date();
 
-var dm=navigator.userAgentData
-console.log(dm)
+var dm = navigator.userAgentData.mobile;
+
+if (dm == false) {
+  console.log("not on mobile");
+} else {
+  let mb = navigator.userAgentData.brands[2].brand;
+  document.getElementById("mobile").innerHTML = mb;
+}
