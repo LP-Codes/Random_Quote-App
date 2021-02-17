@@ -66,6 +66,6 @@ var dm = navigator.userAgentData.mobile;
 if (dm == false) {
   console.log("not on mobile");
 } else {
-  let mb = navigator.userAgentData.brands[2].brand;
+  let mb = navigator.userAgentData.brands[0].brand;
   document.getElementById("mobile").innerHTML = mb;
 }
